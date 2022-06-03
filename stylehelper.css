@@ -1,0 +1,65 @@
+body {
+            background-image: linear-gradient(to bottom right, black, rgb(29, 29, 29));
+            color: #fff;
+        }
+
+
+        #center-Card {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .card {
+            border-radius: 25px;
+            background-color: hsl(214, 20%, 16%);
+            position: relative;
+        }
+
+        #star-image {
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        div .bgImage {
+            border-radius: 20px;
+            display: inline-block;
+            background-color: hsl(214, 19%, 23%);
+            padding: 0.5rem 1.2rem;
+        }
+
+        #selected {
+            margin: auto;
+            text-align: center;
+            color: hsl(25, 84%, 52%);
+        }
+
+        .card-title {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+        .card-text {
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 55px;
+        }
+        
+    /* footer */
+
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(25, 97%, 53%);
+    }

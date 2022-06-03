@@ -1,0 +1,118 @@
+
+    body {
+      background-image: linear-gradient(to bottom right, black, rgb(29, 29, 29));
+      color: #fff;
+    }
+
+    #center-Card {
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      border-radius: 25px;
+      background-color: hsl(214, 20%, 16%);
+      position: relative;
+    }
+
+    #imgCircle {
+      background-color: hsl(214, 19%, 23%);
+      border: 1px solid hsl(214, 19%, 23%);
+      width: 55px;
+      height: 53px;
+    }
+
+    #star-image {
+      height: 20px;
+    }
+
+    .numberCircle {
+      width: 52px;
+      line-height: 52px;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 18px;
+      color: rgb(185, 180, 180);
+      background-color: hsl(214, 19%, 23%);
+      cursor: pointer;
+    }
+
+    .numberCircle:hover {
+      background-color: hsl(219, 16%, 72%);
+      color: white;
+    }
+
+    .numberCircle:focus,
+    .numberCircle:active {
+      background-color: hsl(25, 97%, 53%);
+      color: white;
+    }
+
+    .card-title {
+      margin-top: 15px;
+      color: hsl(0, 0%, 93%);
+    }
+
+    .card-text {
+      font-size: 15px;
+      margin-top: 12px;
+      margin-bottom: 25px;
+      color: hsl(215, 13%, 64%);
+    }
+
+    #sumbit-btn {
+      margin-top: 30px;
+      display: block;
+      line-height: 40px;
+      text-decoration: none;
+      color: white;
+      background-color: hsl(25, 97%, 53%);
+      letter-spacing: 2px;
+      text-align: center;
+      position: relative;
+      transition: all .35s;
+    }
+
+    #sumbit-btn span {
+      position: relative;
+      color: white;
+    }
+
+    #sumbit-btn:focus {
+      border: 1px solid white;
+      box-shadow: none;
+    }
+
+    #sumbit-btn:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: rgba(253, 253, 253, 0.5);
+      transition: all .35s;
+      border-radius: 128px;
+    }
+
+    #sumbit-btn:hover {
+      color: #fff;
+    }
+
+    #sumbit-btn:hover:after {
+      width: 100%;
+    }
+
+    /* footer */
+
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(25, 97%, 53%);
+    }
